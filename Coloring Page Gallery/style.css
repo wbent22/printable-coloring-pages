@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+h1{
+    text-align: center;
+    margin-bottom: -2vw;
+    font-size: 3vw;
+}
+
+h2{
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Patua One";
+}
+
 td{
     font-size: 3vw;
 }
@@ -5,9 +24,67 @@ td{
 table{
     border-spacing: 15vw 10vw;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .picture{
     width: 20vw;
     height: 30vw;
+}
+
+.picture:hover{
+    border: 1px solid black;   
+}
+
+.frontpic{
+    width: 12vw;
+    height: 4vw
+}
+
+#kidsfont{
+    
+    font-family:'Short Stack' ;
+}
+
+a{
+    color: black;
+}
+
+#flowerfont{
+    font-size: 4vw;
+    font-family: 'Sacramento';
+}
+
+#animalfont{
+    font-family: 'Permanent Marker';
+}
+
+#compfont{
+    font-family: 'Chakra Petch';
+}
+
+#topfont{
+    font-family: 'Rowdies';
+}
+
+#kidsfont:hover{
+    color: deeppink;
+}
+
+#flowerfont:hover{
+    color: blueviolet;
+}
+
+#animalfont:hover{
+    color: darkgreen;
+}
+
+#compfont:hover{
+    color:red
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
 }
